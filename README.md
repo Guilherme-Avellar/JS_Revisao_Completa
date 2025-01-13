@@ -1,5 +1,6 @@
 # Estudo sobre JavaScript puro
 <br>
-- propriedades da linguagem
-- mecânica
-- sintaxe
+<p>- propriedades da linguagem<br>
+- mecânica<br>
+- sintaxe<br>
+</p>
