@@ -11,5 +11,8 @@ var x = 1;
 // e mesmo assim, o funcionamento é apenas para não dar erro,
 // pois o valor mesmo não é lido.
 
-// Com funções esta mecânica é mais útil
+console.log("printe de uma variavel declarada posteriormente: ", y); // erro
 
+let y = 1;
+
+// Com funções esta mecânica é mais útil
