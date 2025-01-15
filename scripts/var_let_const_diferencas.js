@@ -18,11 +18,11 @@ function exemplo() {
     const z = 3;
     // z = 2; // erro: não pode reatribuir uma constante
     console.log(z); // 3
-    // E não tem limitação de escopo, como o let
+    // Não é global como o var, mas também não é escopo de bloco como o let
     if (true) {
-        console.log(z);
+        console.log(z); // 3, se fosse let daria erro
     }
-    console.log(z);
+    console.log(z); // 3
 }
 
 exemplo();
