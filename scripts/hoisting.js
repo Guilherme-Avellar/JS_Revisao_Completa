@@ -17,13 +17,10 @@ console.log(variavel); // 600
 
 // Entre as variaveis, essa mecânica funciona apenas com o var
 // e mesmo assim, o funcionamento é apenas para não dar erro,
-// pois o valor mesmo não é lido.
+// pois o valor mesmo, não é lido antes da declaração, mas pode receber valores.
 
-console.log("printe de uma variavel declarada posteriormente: ", y); // erro
+console.log("print de uma variavel declarada posteriormente: ", y); // erro
 
 let y = 1;
-
-//exemplo2:
-
 
 // Com funções esta mecânica é mais útil
