@@ -24,3 +24,13 @@ console.log("print de uma variavel declarada posteriormente: ", y); // erro
 let y = 1;
 
 // Com funções esta mecânica é mais útil
+
+
+// exemplo com funções:
+
+console.log(somar(1, 2)); // 3
+function somar(a, b) {
+    return a + b;
+}
+
+// função declarada depois do seu uso. Algo que não seria possível em C por exemplo
