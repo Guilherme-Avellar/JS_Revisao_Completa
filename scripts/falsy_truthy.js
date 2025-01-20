@@ -1,8 +1,8 @@
 // O que é considerado falso ou verdadeiro em JS?
 // Isso é chamado de Falsy e Truthy
 
-// Exemplos de Falsy:
 
+// Exemplos de Falsy:
 console.log("\nExemplos de Falsy:\n");
 
 console.log("false: ", false ? "Verdadeiro" : "Falso"); // Falso
@@ -14,6 +14,7 @@ console.log("undefined: ", undefined ? "Verdadeiro" : "Falso"); // Falso
 console.log("NaN: ", NaN ? "Verdadeiro" : "Falso"); // Falso
 
 
+// Exemplos de Truthy:
 console.log("\nExemplos de Truthy:\n");
 
 console.log("true: ", true ? "Verdadeiro" : "Falso"); // Verdadeiro
