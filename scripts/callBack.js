@@ -13,6 +13,15 @@ function calcular(a, b, operacao) {
     return operacao(a, b);
 }
 
+// "operação" pode assumir o papel de qualquer função que será passada como argumento.
+// Caso não seja passada uma função, ocorrerá um erro, pois na linha 13, "operacao" é
+// usada em forma de função:
+/*
+VM176:13 Uncaught TypeError: operacao is not a function
+    at calcular (<anonymous>:13:12)
+    at <anonymous>:30:53
+*/
+
 function soma(a, b) {
     return a + b;
 }
