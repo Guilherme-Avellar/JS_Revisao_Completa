@@ -37,3 +37,9 @@ function multiplicacao(a, b) {
 console.log("Resultado de 2 e 7 com a função soma", calcular(2, 7, soma)); // 9
 console.log("Resultado de 2 e 7 com a função multiplicação", calcular(2, 7, multiplicacao)); // 14
 console.log("Resultado de 2 e 7 com a função subtração", calcular(2, 7, subtracao)); // -5
+
+
+// Exemplo com arrow function
+
+console.log("Resultado de 2 e 7 com a função exponencial (arrow function)", calcular(2, 7, (a, b) => a**b)); // 128
+
