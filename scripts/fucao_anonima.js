@@ -1,4 +1,4 @@
-// Função anônima é uma função que não tem nome
+// Função anônima é uma função que não tem nome e executa no local onde foi definida.
 
 
 const nome_qualquer = function(){
