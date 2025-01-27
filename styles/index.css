@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -26,9 +28,36 @@ main {
 }
 
 p{
-    font-size: 2rem;
+    font-size: 4rem;
     color: white;
 }
 
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+}
+
+input {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    background-color: rgb(138, 45, 64);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
