@@ -59,3 +59,17 @@ const usuario3 = {
     }
 
 }
+
+
+// Acessando propriedades de um objeto:
+console.log(usuario.nome); // João
+console.log(usuario2.nome.primeiro_nome); // João
+// Acessando métodos de um objeto:
+usuario3.mensagem(); // Olá, eu sou o João!
+// nesse caso o console.log já está dentro do método
+
+// Notação alternativa para acessar propriedades de um objeto:
+console.log(usuario["nome"]); // João
+console.log(usuario2["nome"]["primeiro_nome"]); // João
+// Notação alternativa para acessar métodos de um objeto:   
+usuario3["mensagem"](); // Olá, eu sou o João!
