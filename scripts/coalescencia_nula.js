@@ -15,21 +15,15 @@ const resultado1 = valorNulo ?? valorPadrao; // 'Valor padrão'
 const resultado2 = valorIndefinido ?? valorPadrao; // 'Valor padrão'
 const resultado3 = valorVazio ?? valorPadrao; // ''
 
-console.log(resultado1); // 'Valor padrão'
-console.log(resultado2); // 'Valor padrão'
-console.log(resultado3); // ''
+// Exemplo 2:
 const valorZero = 0;
 const valorFalse = false;
 
 const resultado4 = valorZero ?? valorPadrao; // 0
 const resultado5 = valorFalse ?? valorPadrao; // false
 
-console.log(resultado4); // 0
-console.log(resultado5); // false
-
 
 // Exemplo mais real:
-
 const usuario = {
     nome: 'Lucas',
     foto: undefined, // O usuário ainda não definiu sua foto de perfil
