@@ -73,3 +73,25 @@ console.log(usuario["nome"]); // João
 console.log(usuario2["nome"]["primeiro_nome"]); // João
 // Notação alternativa para acessar métodos de um objeto:   
 usuario3["mensagem"](); // Olá, eu sou o João!
+
+
+
+// Para acessar uma propriedade de um objeto dentro do próprio objeto (é chamdo de contexto do objeto):
+const usuario4 = {
+    nome: "João",
+    idade: 30,
+    mensagem: function() {
+        console.log(`Olá, eu sou o ${usuario4.nome}!`); // João
+        console.log(`Olá, eu sou o ${this.nome}!`); // João
+    }
+}
+// A palavra-chave this é uma referência ao objeto atual, ou seja, o contexto do proprio objeto.
+
+// OBS: se o método estiver em formato de arrow function, o this não funcionará corretamente.
+
+
+// Para alterar o valor de uma propriedade de um objeto:
+usuario4.mensagem(); // Olá, eu sou o João!
+usuario4.nome = "Maria";
+usuario4.mensagem(); // Olá, eu sou o Maria!
+
