@@ -1,6 +1,6 @@
 import { Cliente } from "./Cliente.js";
 
-
+// Palavra chave 'extends' é usada para o uso de herança
 export class ContaCorrente extends Cliente{
 
     // atributos, exemplo de como se declara:
@@ -63,6 +63,11 @@ export class ContaCorrente extends Cliente{
         é implícita, não é como o C, por exemplo, que há a necessidade de deixar explícito
         o que é referência ou não.
     */ 
+
+    // exemplo de sobrescrita de método, override
+    tipoConta() {
+        console.log("Conta do tipo: Conta Corrente");
+    }
 
 }
 

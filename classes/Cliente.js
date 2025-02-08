@@ -6,7 +6,7 @@ export class Cliente {
     #nome;
     #cpf;
     #aniversarioData;
-    #dataAtual; // teria que se usar um API para pegar a data atual
+    #dataAtual; // teria que se usar API Inpl
 
     constructor (nome, cpf, aniversarioData) {
         this.#nome = nome;
@@ -43,6 +43,11 @@ export class Cliente {
 
     get Idade () {
         return this.#calcularIdade();
+    }
+
+    // exemplo para override
+    tipoConta() {
+        console.log("Conta do tipo: Cliente");
     }
 
 }
