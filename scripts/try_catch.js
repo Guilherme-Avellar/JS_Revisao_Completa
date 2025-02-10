@@ -29,6 +29,9 @@ try {
     manualmente. Isso interrompe a execução normal do código e transfere
     o controle para o bloco catch mais próximo (se existir) para tratar
     o erro. Se não houver um bloco catch, o programa para com um erro.
+    Possui um comportamento muito parecido com o return, quado é executado
+    ele pula direto para o bloco de catch, ignorando tudo até chegar no 
+    catch.
 
     exemplo de uso:
 
