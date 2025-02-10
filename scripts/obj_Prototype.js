@@ -1,7 +1,8 @@
 // Prototype é um mecanismo de herança em JavaScript.
-// Permite que objetos compartilhem propriedades e métodos entre si
-// (lembrando que quase tudo é um objeto em JS, como uma função, por
-//  exemplo)
+// Permite que objetos compartilhem propriedades e métodos entre si.
+
+// Lembrando que quase tudo é um objeto em JS, como uma função, por
+// exemplo.
 
 // __proto__ é a palavra-chave que acessa o prototype de um objeto.
 // É possível acessar o prototype de um objeto e modifica-lo, seja 
