@@ -22,3 +22,16 @@ try {
     // É opcional o uso do fainally
 }
 
+/*  
+    Palavra-chave throw:
+
+    A função da palavra-chave throw em JavaScript é lançar uma exceção
+    manualmente. Isso interrompe a execução normal do código e transfere
+    o controle para o bloco catch mais próximo (se existir) para tratar
+    o erro. Se não houver um bloco catch, o programa para com um erro.
+
+    exemplo de uso:
+
+    throw new Error("Algo deu errado!");
+*/
+
