@@ -49,7 +49,7 @@ formulario.addEventListener("submit", (event) => {
     const valor2 = input1.value;
     // lembrando que o test() retorna um booleano
     if(regex.test(valor2)) {
-        alert("Valor encontrado");
+        alert("Não pode ter letras");
     }
 })
 
