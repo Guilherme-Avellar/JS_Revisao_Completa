@@ -1,7 +1,5 @@
 // Analogia: Objetos são semelhantes a uma Struct em C, porém, muito mais manipuláveis e poderosos.
 
-
-
 // Criando um objeto vazio:
 const objVazio = {};
 console.log(objVazio); // {}
