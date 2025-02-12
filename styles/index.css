@@ -6,11 +6,17 @@
     font-weight: 400;
 }
 
-
-main {
+.alinhar {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lista {
+    flex-direction: column;
+}
+
+main {
     height: 100vh;
     background-color: gray;
 }
@@ -18,10 +24,6 @@ main {
 .container{
     background-color: rgb(138, 45, 64);
     border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     height: 500px;
     width: 500px;
@@ -58,6 +60,11 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.texto-js {
+    color: rgb(255, 0, 234);
+    font-size: medium;
 }
 
 
