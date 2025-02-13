@@ -27,6 +27,8 @@ main {
 
     height: 500px;
     width: 500px;
+
+    gap: 2rem;
 }
 
 p{
@@ -63,4 +65,8 @@ button {
     font-size: medium;
 }
 
+.img50 {
+    height: 50px;
+    width: 50px;
+}
 
