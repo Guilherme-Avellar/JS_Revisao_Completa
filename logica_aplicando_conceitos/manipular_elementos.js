@@ -38,8 +38,8 @@ function criarNovaTag(objComDados) {
     const tagNova = document.createElement("div");
     const imagem = document.createElement("img");
 
-    // pega o value do objeto que foi passado para essa função, que tem o mesmo
-    // nome que o arquivo svg para facilitar:
+    // pega o value do objeto que foi passado para essa função, que no html 
+    // foi posto com o mesmo nome que o arquivo svg para facilitar:
     imagem.setAttribute("src", `img/${objComDados.categoria_value}.svg`);
 
     imagem.setAttribute("alt", objComDados.categoria_texto);
