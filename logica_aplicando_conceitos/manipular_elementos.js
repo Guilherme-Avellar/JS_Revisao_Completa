@@ -1,5 +1,5 @@
 
-// selecionando a tag <select>
+// selecionando a tag <select> e <div>:
 const categoria = document.getElementById("categoria");
 const container1 = document.getElementById("container1");
 
