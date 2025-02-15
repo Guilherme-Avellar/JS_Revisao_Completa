@@ -15,6 +15,11 @@ const div1 = document.getElementsByClassName("container")[0];
 const paragrafo = document.getElementById("texto")
 const main = document.querySelector("main");
 
+// É possível usar o querySelector para pegar tags específicas que estão dentro de outras:
+const paragrafoDeOutraForma = document.querySelector("body main div p")
+// Funciona com classes ou id também:               ("body main #container p")
+console.log("outra forma de pegar o p:", paragrafoDeOutraForma);
+
 // Para adicionar elementos no DOM:
 // Primeiro se cria ou manipula o que se quer adicionar
 // criando um parágrafo:
