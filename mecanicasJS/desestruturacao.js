@@ -29,4 +29,43 @@ console.log(fruta3); // Uva
 // ficar mais claro.
 
 
+// Desestruturação de objetos -----------------------------------------------------
+
+
+const objProduto = {
+    nome: "Teclado",
+    preco: 100,
+    marca: "Logitech"
+}
+
+// Desestruturando:
+const { nome, preco, marca } = objProduto;
+
+console.log("valores do obj:", nome, preco, marca);
+
+/*
+obs: Precisa ser o mesmo nome da propriedade do objeto, se não, não sera definido:
+const { nome, preco1, marca1 } = objProduto;
+
+console.log("valores do obj:", nome, preco1, marca1); // Teclado undefined undefined
+*/
+// Para o nome da variavel ser diferente da propriedade do obj:
+const { nome: n, preco: p, marca: m } = objProduto;
+console.log(n, p, m); // Teclado 100 Logitech
+
+
+
+// Desestruturando os parametros de uma função:
+function mostrarCasa({ rua, numero, cidade }) {
+    console.log(rua, numero, cidade);
+}
+
+// chamando a função com a desestruturação:
+mostrarCasa({ rua: "Rua das Flores", numero: 123, cidade: "São Paulo" });
+// Rua das Flores 123 São Paulo
+
+// Isso elimina o problema de ter que se preocupar com a ordem dos parâmetros:
+mostrarCasa({ numero: 123, cidade: "São Paulo", rua: "Rua das Flores" });
+
+// Com essa solução, a ordem pode ser passada de qualquer forma
 
