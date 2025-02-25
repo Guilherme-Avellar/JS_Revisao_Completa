@@ -14,10 +14,19 @@ produtos.map((item) => {
 
 //produtos.map((item) => console.log(item));
 
+// map() passa para "item" o valor atual do array, automaticamente, e a arrow function que
+// está como parametro de map passa o valor atual para o console.log, que exibe o valor atual.
+
 // Passando todos os valores do array para maiúsculo e armazenando em um novo array:
 const produtosMaiusculo = produtos.map((item) => {
     return item.toUpperCase();
 })
+
+/*
+    map() passa para "item" o valor atual do array, automaticamente, e a arrow function que
+    está como parametro de map passa o valor atual em maiúsculo para o map, com esse valor, 
+    o map vai construindo um novo array com os valores modificados.
+*/
 
 console.log(produtosMaiusculo);
 
