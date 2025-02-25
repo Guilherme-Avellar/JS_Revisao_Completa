@@ -1,5 +1,6 @@
 # Métodos de vetores
 
-*Ordem a ser vista*
-- map.js
-- filter.js
+*Ordem a ser vista:*
+1. map.js
+2. filter.js
+3. findIndex.js
