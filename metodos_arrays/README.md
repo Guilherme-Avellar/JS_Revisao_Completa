@@ -6,3 +6,4 @@
 3. findIndex.js
 4. find.js
 5. every.js
+6. some.js
