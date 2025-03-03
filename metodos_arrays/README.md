@@ -7,3 +7,4 @@
 4. find.js
 5. every.js
 6. some.js
+7. reduce.js
