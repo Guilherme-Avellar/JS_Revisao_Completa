@@ -20,10 +20,12 @@ const livroAtualizacao = {
 
 console.log(livroAtualizacao);
 
-// Rest operator para remover propriedades:
+// Desestruturação com rest operator para remover propriedades:
 const { titulo, ...resto } = livroAtualizacao;
 
-// Remove a propriedade titulo e retorna o restante das propriedades
-// para o objeto resto
+// Coloca o titulo na variavel "titulo" e o resto das propriedades em um objeto,
+// objeto "resto". Assim, o objeto livroAtualizacao não é alterado.
 
 console.log(resto);
+
+console.log(titulo);
