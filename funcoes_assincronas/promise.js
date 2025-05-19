@@ -7,8 +7,8 @@
 // e que não queremos que trave a execução do código
 
 
-// Exemplo simmples:
-
+// Exemplo simmples, atribuindo a uma variável:
+/*
 let promise = new Promise((resolve, reject) => {
     
     // Simulando uma operação assíncrona
@@ -20,6 +20,7 @@ let promise = new Promise((resolve, reject) => {
         reject("Operação falhou.");
     }
 });
+*/
 
 
 // Outro exemplo de simulação de um uso de promise
